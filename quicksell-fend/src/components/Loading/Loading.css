@@ -1,0 +1,14 @@
+.ring-loader {
+  border-radius: 50%;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-top: 8px solid #3498db; /* Default color */
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
